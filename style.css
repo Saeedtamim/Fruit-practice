@@ -1,3 +1,40 @@
-.hoceys-program-items{
-    background: linear-gradient(rgba(19, 19, 24, 0.50));
+.program_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.7rem;
+}
+.practice{
+    margin: 100px 50px;
+    background:linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./images/group1.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+}
+.practice_items{
+    width: 40%;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.practice_items h4{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.practice_items p{
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.practice_items a{
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ef4444;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
 }
